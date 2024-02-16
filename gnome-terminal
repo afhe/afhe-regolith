@@ -1,0 +1,25 @@
+gnome.terminal.font:      gtk_monospace_font_name
+gnome.terminal.scrollbar: never
+
+gnome.terminal.color0:    color_black
+gnome.terminal.color1:    #CC0000
+gnome.terminal.color2:    #4E9A06
+gnome.terminal.color3:    #C4A000
+gnome.terminal.color4:    #3465A4
+gnome.terminal.color5:    #75507B
+gnome.terminal.color6:    #06989A
+gnome.terminal.color7:    #D3D7CF
+gnome.terminal.color8:    #CBCCC6
+gnome.terminal.color9:    #EF2929
+gnome.terminal.color10:   #8AE234
+gnome.terminal.color11:   #FCE94F
+gnome.terminal.color12:   #729FCF
+gnome.terminal.color13:   #AD7FA8
+gnome.terminal.color14:   #34E2E2
+gnome.terminal.color15:   #EEEEEC
+
+
+! -- Optional Configuration
+!gnome.terminal.audible-bell:                       true/false
+!gnome.terminal.use-transparent-background:         true/false
+!gnome.terminal.background-transparency-percent:    0 - 99
