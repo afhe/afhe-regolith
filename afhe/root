@@ -14,7 +14,7 @@ regolith.look: afhe
 
 ! -- Specify either a complete file path to an image
 
-regolith.wallpaper.file: /usr/share/regolith-look/afhe/shinsekai.jpg
+regolith.wallpaper.file: /usr/share/regolith-look/afhe/shinsekai.jpeg
 regolith.wallpaper.options: zoom
 
 !-- *Or* specify a color
@@ -35,7 +35,7 @@ regolith.wallpaper.color.shading.type:
 ! -- Specify either a complete file path to an image
 ! -- and (optionally) options how to display the file
 
-regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/afhe/shinsekai.jpg
+regolith.lockscreen.wallpaper.file: /usr/share/regolith-look/afhe/shinsekai.jpeg
 regolith.lockscreen.wallpaper.options: zoom
 
 !-- *Or* specify a color
