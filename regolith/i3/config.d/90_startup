@@ -8,3 +8,4 @@ exec --no-startup-id /usr/bin/xrandr --output DisplayPort-1 --brightness 0.9 --g
 for_window [class="discord"] move container to workspace number $ws8
 for_window [class="Spotify"] move container to workspace number $ws8
 for_window [class="obsidian"] move scratchpad
+for_window [class="firefox" instance="Navigator"] floating enable
