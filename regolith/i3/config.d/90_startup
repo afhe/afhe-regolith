@@ -10,4 +10,4 @@ for_window [class="Spotify"] move container to workspace number $ws8
 for_window [class="obsidian"] move scratchpad
 
 # Trying to make popups popup, but they dont have any distinct identifiers from regular firefox windows :(
-# for_window [class="firefox" instance="Navigator"] floating enable
+# for_window [class="firefox" instance="Navigator"] floating enable 
