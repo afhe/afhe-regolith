@@ -24,7 +24,12 @@ bindsym $mod+$wm.binding.bluetooth exec --no-startup-id $wm.program.bluetooth
 
 for_window [class="Regolith-control-center"] floating enable
 
-## Launch // File Browser // <><Shift> e ##
+## Launch // gnome-screenshot // <><Shift> s ##
+set_from_resource $wm.binding.screenshot wm.binding.screenshot Shift+s
+set_from_resource $wm.program.screenshot wm.program.screenshot /usr/share/regolith/scripts/screenshot.sh
+bindsym $mod+$wm.binding.screenshot exec --no-startup-id $wm.program.screenshot
+
+## Launch // File Browser // <> e ##
 set_from_resource $wm.binding.files wm.binding.files e
 set_from_resource $wm.program.files wm.program.files /usr/bin/nautilus --new-window
 bindsym $mod+$wm.binding.files exec --no-startup-id $wm.program.files
