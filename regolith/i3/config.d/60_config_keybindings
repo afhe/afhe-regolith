@@ -7,20 +7,20 @@ set_from_resource $wm.binding.settings wm.binding.settings c
 set_from_resource $wm.program.settings wm.program.settings regolith-control-center
 bindsym $mod+$wm.binding.settings exec --no-startup-id $wm.program.settings
 
-## Modify // Display Settings // <> d ##
-set_from_resource $wm.binding.display wm.binding.display d
-set_from_resource $wm.program.display wm.program.display regolith-control-center display
-bindsym $mod+$wm.binding.display exec --no-startup-id $wm.program.display
+### Modify // Display Settings // <> d ##
+#set_from_resource $wm.binding.display wm.binding.display d
+#set_from_resource $wm.program.display wm.program.display regolith-control-center display
+#bindsym $mod+$wm.binding.display exec --no-startup-id $wm.program.display
 
-## Modify // Wifi Settings // <> w ##
-set_from_resource $wm.binding.wifi wm.binding.wifi w
-set_from_resource $wm.program.wifi wm.program.wifi regolith-control-center wifi
-bindsym $mod+$wm.binding.wifi exec --no-startup-id $wm.program.wifi
+### Modify // Wifi Settings // <> w ##
+#set_from_resource $wm.binding.wifi wm.binding.wifi w
+#set_from_resource $wm.program.wifi wm.program.wifi regolith-control-center wifi
+#bindsym $mod+$wm.binding.wifi exec --no-startup-id $wm.program.wifi
 
-## Modify // Bluetooth Settings // <> b ##
-set_from_resource $wm.binding.bluetooth wm.binding.bluetooth b
-set_from_resource $wm.program.bluetooth wm.program.bluetooth regolith-control-center bluetooth
-bindsym $mod+$wm.binding.bluetooth exec --no-startup-id $wm.program.bluetooth
+### Modify // Bluetooth Settings // <> b ##
+#set_from_resource $wm.binding.bluetooth wm.binding.bluetooth b
+#set_from_resource $wm.program.bluetooth wm.program.bluetooth regolith-control-center bluetooth
+#bindsym $mod+$wm.binding.bluetooth exec --no-startup-id $wm.program.bluetooth
 
 for_window [class="Regolith-control-center"] floating enable
 
