@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Script to generate Regolith profile for gnome-terminal.
+# Script to generate profile for gnome-terminal.
 # Based on ~
 #
 # Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
@@ -24,7 +24,7 @@ append_profile_uuid_to_list() {
   gsettings set "$GSETTINGS_PROFILELIST_PATH" list "${list%]*}, '$uuid']"
 }
 
-# Writes the Regolith GNOME Terminal theme colors and configurations as dconf key-value pairs to the target profile.
+# Writes the GNOME Terminal theme colors and configurations as dconf key-value pairs to the target profile.
 #
 # @globread profile_name
 # @return none
