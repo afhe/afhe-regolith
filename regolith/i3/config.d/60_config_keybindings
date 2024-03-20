@@ -27,7 +27,7 @@ for_window [class="Regolith-control-center"] floating enable
 ## Launch // gnome-screenshot // <><Shift> s ##
 set_from_resource $wm.binding.screenshot wm.binding.screenshot Shift+s
 set_from_resource $wm.program.screenshot wm.program.screenshot /usr/share/regolith/scripts/screenshot.sh
-bindsym $mod+$wm.binding.screenshot exec --no-startup-id $wm.program.screenshot
+bindsym $mod+$wm.binding.screenshot exec $wm.program.screenshot
 
 ## Launch // File Browser // <> e ##
 set_from_resource $wm.binding.files wm.binding.files e
