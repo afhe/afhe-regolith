@@ -1,0 +1,4 @@
+wm.program.lock: /usr/bin/i3lock -c 000000 
+
+!regolith.look.path: /usr/share/regolith-look/afhe
+regolith.look.path: /usr/share/regolith-look/afhe
